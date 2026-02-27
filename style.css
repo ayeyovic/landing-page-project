@@ -1,12 +1,60 @@
+body {
+    padding: 0;
+    margin:0;
+    font-family: 'Roboto';
+}
+
 .main-container {
     display: flex;
-
+    flex-direction: column;
 }
 
-.header-container{
 
+.top-container {
+    display: flex;
+    background-color: #1F2937;
+    
+}
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0px 100px 0px 100px; /*top right bottom left */
+}
+/* Font Color for top row header */
+.header .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
 }
 
+.nav-links {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    margin-left: auto;
+    margin-right: 0;
+    padding:0;
+    font-weight: 300;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+#right {
+    color: gray;
+    border: 4px red;
+}
 .second-container{
 
 }
