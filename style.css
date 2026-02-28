@@ -84,6 +84,7 @@ body {
  .hero-right img {
     height: 400px;
     width: 400px;
+    border-radius: 12px;
     /* object-fit: cover; */
 }
 
@@ -99,7 +100,28 @@ body {
     
 }
 
+.info-container{
+    text-align: center;
+    padding: 30px;
+}
 
+.info-box {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.info-box img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.info-box p {
+    width: 200px;
+}
 
 
 
