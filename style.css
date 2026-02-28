@@ -181,6 +181,7 @@ body {
 
 .cta-left p {
     margin: 0px;
+    font-size: 14px;
 
 }
 
@@ -194,12 +195,20 @@ body {
     background-color: #3882F6;
     border-color: white;
     outline: 2px solid white;
-    width: 80px;
+    width: 90px;
     height: 30px;
     border: none;
 }
 
 
-.footer{
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+}
 
+.footer p {
+    color: white;
+    font-size: 12px;
+    opacity: 0.7;
 }
